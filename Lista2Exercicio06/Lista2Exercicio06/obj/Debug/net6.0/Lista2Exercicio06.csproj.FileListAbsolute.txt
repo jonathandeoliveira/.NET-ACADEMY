@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\bin\Debug\net6.0\Lista2Exercicio06.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\bin\Debug\net6.0\Lista2Exercicio06.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\bin\Debug\net6.0\Lista2Exercicio06.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\bin\Debug\net6.0\Lista2Exercicio06.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\bin\Debug\net6.0\Lista2Exercicio06.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\refint\Lista2Exercicio06.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\Lista2Exercicio06.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista2Exercicio06\Lista2Exercicio06\obj\Debug\net6.0\ref\Lista2Exercicio06.dll
