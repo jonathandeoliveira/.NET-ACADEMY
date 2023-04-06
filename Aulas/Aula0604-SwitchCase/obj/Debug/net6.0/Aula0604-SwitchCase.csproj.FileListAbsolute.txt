@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\bin\Debug\net6.0\Aula0604-SwitchCase.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\bin\Debug\net6.0\Aula0604-SwitchCase.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\bin\Debug\net6.0\Aula0604-SwitchCase.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\bin\Debug\net6.0\Aula0604-SwitchCase.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\bin\Debug\net6.0\Aula0604-SwitchCase.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\refint\Aula0604-SwitchCase.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\Aula0604-SwitchCase.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0604-SwitchCase\obj\Debug\net6.0\ref\Aula0604-SwitchCase.dll

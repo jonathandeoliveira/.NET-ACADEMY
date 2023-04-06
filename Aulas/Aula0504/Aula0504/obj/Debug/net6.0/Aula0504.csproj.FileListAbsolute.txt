@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\bin\Debug\net6.0\Aula0504.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\bin\Debug\net6.0\Aula0504.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\bin\Debug\net6.0\Aula0504.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\bin\Debug\net6.0\Aula0504.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\bin\Debug\net6.0\Aula0504.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\refint\Aula0504.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\Aula0504.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aula0504\Aula0504\obj\Debug\net6.0\ref\Aula0504.dll
