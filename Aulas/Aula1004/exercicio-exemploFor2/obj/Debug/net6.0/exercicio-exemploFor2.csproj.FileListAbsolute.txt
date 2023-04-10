@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\bin\Debug\net6.0\exercicio-exemploFor2.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\bin\Debug\net6.0\exercicio-exemploFor2.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\bin\Debug\net6.0\exercicio-exemploFor2.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\bin\Debug\net6.0\exercicio-exemploFor2.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\bin\Debug\net6.0\exercicio-exemploFor2.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\refint\exercicio-exemploFor2.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\exercicio-exemploFor2.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\exercicio-exemploFor2\obj\Debug\net6.0\ref\exercicio-exemploFor2.dll
