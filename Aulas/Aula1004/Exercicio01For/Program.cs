@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            /* Escreva um algoritmo para ler um número n, e em seguida ler pelo teclado a idade n pessoas, calcular a média de idade das n pessoas. */
+            /* Lista 03 1- Escreva um algoritmo para ler um número n, e em seguida ler pelo teclado a idade n pessoas, calcular a média de idade das n pessoas. */
             double n; double idade; double total_idades = 0;
             double media_idades;
             Console.WriteLine("Digite um número para o total de pessoas:");
