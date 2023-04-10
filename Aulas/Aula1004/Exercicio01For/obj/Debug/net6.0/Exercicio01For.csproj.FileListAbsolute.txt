@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\bin\Debug\net6.0\Exercicio01For.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\bin\Debug\net6.0\Exercicio01For.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\bin\Debug\net6.0\Exercicio01For.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\bin\Debug\net6.0\Exercicio01For.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\bin\Debug\net6.0\Exercicio01For.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\refint\Exercicio01For.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\Exercicio01For.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1004\Exercicio01For\obj\Debug\net6.0\ref\Exercicio01For.dll
