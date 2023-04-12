@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\bin\Debug\net6.0\L03P2Exercicio14.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\bin\Debug\net6.0\L03P2Exercicio14.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\bin\Debug\net6.0\L03P2Exercicio14.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\bin\Debug\net6.0\L03P2Exercicio14.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\bin\Debug\net6.0\L03P2Exercicio14.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\refint\L03P2Exercicio14.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\L03P2Exercicio14.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista03Parte02\L03P2Exercicio14\obj\Debug\net6.0\ref\L03P2Exercicio14.dll
