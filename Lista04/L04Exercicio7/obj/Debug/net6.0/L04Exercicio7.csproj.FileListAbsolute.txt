@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\bin\Debug\net6.0\L04Exercicio7.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\bin\Debug\net6.0\L04Exercicio7.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\bin\Debug\net6.0\L04Exercicio7.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\bin\Debug\net6.0\L04Exercicio7.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\bin\Debug\net6.0\L04Exercicio7.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\refint\L04Exercicio7.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\L04Exercicio7.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista04\L04Exercicio7\obj\Debug\net6.0\ref\L04Exercicio7.dll
