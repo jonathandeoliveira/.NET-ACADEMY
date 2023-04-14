@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\bin\Debug\net6.0\L05Exercicio1.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\bin\Debug\net6.0\L05Exercicio1.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\bin\Debug\net6.0\L05Exercicio1.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\bin\Debug\net6.0\L05Exercicio1.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\bin\Debug\net6.0\L05Exercicio1.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\refint\L05Exercicio1.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\L05Exercicio1.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Lista05\L05Exercicio1\obj\Debug\net6.0\ref\L05Exercicio1.dll
