@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\bin\Debug\net6.0\Introducao_a_Funcoes.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\bin\Debug\net6.0\Introducao_a_Funcoes.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\bin\Debug\net6.0\Introducao_a_Funcoes.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\bin\Debug\net6.0\Introducao_a_Funcoes.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\bin\Debug\net6.0\Introducao_a_Funcoes.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\refint\Introducao_a_Funcoes.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\Introducao_a_Funcoes.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1804\Introducao_a_Funcoes\obj\Debug\net6.0\ref\Introducao_a_Funcoes.dll
