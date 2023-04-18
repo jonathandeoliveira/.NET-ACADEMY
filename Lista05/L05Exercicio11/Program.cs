@@ -30,7 +30,7 @@
                 for (int col = 0; col < matrizA.GetLength(1); col++)
                 {
                     matrizB[linha, col] = (matrizA[linha, col] / (linha + col));
-                    Console.Write(matrizB[linha, col] + "\t");
+                    Console.Write(matrizB[linha, col].ToString("F2") + "\t");
                 }
                 Console.WriteLine();
             }
