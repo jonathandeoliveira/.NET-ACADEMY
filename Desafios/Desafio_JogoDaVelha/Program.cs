@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography.X509Certificates;
+using System.Xml;
 
 namespace Desafio_JogoDaVelha
 {
@@ -157,8 +158,8 @@ namespace Desafio_JogoDaVelha
                                     if (tabuleiro[linha, col] == jogada)
                                     {
                                         tabuleiro[linha, col] = jogador_atual;
-                                        //Console.WriteLine(tabuleiro[linha, col] + "\n INPUT DO JOGADOR acima");
                                         valida = true;
+                                        rodada++;
                                         jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
                                     }
                                 }
@@ -175,15 +176,100 @@ namespace Desafio_JogoDaVelha
                             Console.WriteLine("");
                         }
                         Console.WriteLine("\n");
+                        if (rodada > 9) { break; }
                     }
                     Console.WriteLine(" FIM DE JOGO!");
-                    if(jogador_atual == 'O') { Console.WriteLine($"O vencedor foi: 'X'"); }
+                    if (rodada >= 9){ Console.WriteLine("EMPATE!"); }
+                    else if(jogador_atual == 'O') { Console.WriteLine($"O vencedor foi: 'X'"); }
                     else{ Console.WriteLine($"O vencedor foi: 'O'"); }
-                    break;
+                break;
 
                 case '2':
-                    Console.WriteLine("Funcionalidade ainda não implementada");
-                break;
+                    // Gera matriz do Tabuleiro //
+                    Console.WriteLine("Opção de 1 jogador selecionada!");
+                    Console.WriteLine("Selecione a dificuldade que deseja jogar: 1- Fácil 2- Difícil");
+                    char dificuldade = Console.ReadLine()[0];
+                    int rodada2 = 1;
+                    switch(dificuldade)
+                    {
+                        case '1':
+                            Random random = new Random();
+                            Console.WriteLine("Dificuldade: Fácil Selecionada");
+                            Console.WriteLine("------------------------------------ \n");
+                            Console.WriteLine("Tabuleiro do jogo:");
+                            int contador2 = 1;
+                            for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                {
+                                    tabuleiro[linha, col] = Convert.ToChar(contador2.ToString());
+                                    contador2++;
+                                    Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
+                                }
+                                Console.WriteLine("");
+                            }
+                            while (!WinCondition(tabuleiro))
+                            {
+                                valida = false;
+                                do
+                                {
+                                    Console.WriteLine($"Jogada {rodada2} Computador.");
+                                    for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                                    {
+                                        for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                        {
+                                            int rand_linha = random.Next(1, 3);
+                                            int rand_col = random.Next(1, 3);
+                                            if (tabuleiro[rand_linha, rand_col] != 'X' && tabuleiro[rand_linha, rand_col] != 'O' && !valida)
+                                            {
+                                                tabuleiro[rand_linha, rand_col] = jogador_atual;
+                                                rodada2++;
+                                                jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
+                                                valida = true;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                } while (!valida);
+                                    for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                                    {
+                                        for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                        {
+                                            Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
+                                        }
+                                        Console.WriteLine("");
+                                    }
+                                    Console.WriteLine("\n");
+                                
+                                do // faz uma jogada e alterna o jogador
+                                    {
+                                        Console.WriteLine($"Jogada {rodada2} do Jogador {jogador_atual}, escolha uma posição válida do tabuleiro acima para jogar.");
+                                        jogada = Console.ReadLine()[0];
+                                        for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                                        {
+                                            for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                            {
+                                                if (tabuleiro[linha, col] == jogada)
+                                                {
+                                                    tabuleiro[linha, col] = jogador_atual;
+                                                    valida = true;
+                                                    rodada2++;
+                                                    jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
+                                                }
+                                            }
+                                        }
+                                } while (!valida);
+                            }
+                            if (rodada2 > 9) { break; }
+                    
+                            Console.WriteLine(" FIM DE JOGO!");
+                            if (rodada2 >= 9) { Console.WriteLine("EMPATE!"); }
+                            else if (jogador_atual == 'O') { Console.WriteLine($"O vencedor foi: 'X'"); }
+                            else { Console.WriteLine($"O vencedor foi: 'O'"); }
+                            break; // break do case 2.1
+
+                    }
+                    break; //break do case 2
             }
         }
     }
