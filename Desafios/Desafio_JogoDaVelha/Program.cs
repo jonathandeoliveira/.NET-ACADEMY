@@ -19,17 +19,118 @@ namespace Desafio_JogoDaVelha
               Forma e envio: Enviar pelo chat o link do github
 
               Matriz e posições: 
-              0,0     |   0,1     |   0,2    win condition = [00,10,20], [00,01,02], [00,11,22],[02,11,20],[01,11,21],[02,12,22],[20,21,22][10,11,12]
-              1,0     |   1,1     |   1,2
-              2,0     |   2,1     |   2,2
+              0,0  1    |   0,1  2   |   0,2  3   win condition = [00,10,20], [00,01,02], [00,11,22],[02,11,20],[01,11,21],[02,12,22],[20,21,22][10,11,12]
+              1,0  4    |   1,1  5   |   1,2  6
+              2,0  7    |   2,1  8   |   2,2  9
           */
-        public static void HardBot(char[,] matriz)
+        public static bool HardBot(char[,] matriz, int rodada_bot)
         {
-            if (matriz[0, 0] != 'X' && matriz[0, 0] != ('O'))
+            Random random = new Random();
+            int index = random.Next(0, 2);
+            int[] numero = {3, 7};
+            char numero_random = Convert.ToChar(numero[index].ToString());
+            // rodada 1
+            if (rodada_bot == 1)
             {
-                matriz[0, 0] = 'X';        
+                matriz[0, 0] = 'X';
             }
-            if (matriz[0,0] == 'X' && (matriz[2, 0] != 'X' && matriz[2,0] != 'O')) { matriz[2,0] = }
+            // rodada 2
+            if (rodada_bot == 2  && matriz[0,0] == 'X')
+            {
+                bool valida = false;
+                while (!valida)
+                {
+                    for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                    {
+                        for (int col = 0; col < matriz.GetLength(1); col++)
+                        {
+                            if (matriz[linha, col] == numero_random)
+                                matriz[linha, col] = 'X';
+                            valida = true;
+                        }
+                    }
+                }
+            }
+            // rodada 3
+            if (rodada_bot == 3)
+            {    
+                if (matriz[2, 0] == 'X') // 1 e 7
+                {
+                    if (matriz[1, 0] != 'O') { matriz[1, 0] = 'X'; }
+                    else if (matriz[1, 2] != 'O') { matriz[1, 2] = 'X'; }
+                }
+                else if (matriz[0, 2] == 'X') // 1 e 3
+                {
+                    if (matriz[0, 1] != 'O') { matriz[0, 1] = 'X'; }
+                    else if (matriz[2, 1] != 'O') { matriz[2, 1] = 'X'; }
+                    else { matriz[1, 1] = 'X'; }
+                }
+            
+            }
+
+            //rodada 4
+            if (rodada_bot == 4)
+            {
+                if (matriz[0, 0] == 'X' && matriz[2, 0] == 'X' && matriz[1, 2] == 'X') // 1 e 7 e 6
+                {
+                    if (matriz[1, 1] != 'O') { matriz[1, 1] = 'X'; }
+                    else if (matriz[2,1] != 'O') { matriz[0, 1] = 'X'; }
+                    else if (matriz[0,0] != 'O') { matriz[0, 0] = 'X'; }
+                }
+
+
+                else if (matriz[0, 0] == 'X' && matriz[2, 2] == 'X' && matriz[0,2] == 'X')//  1 e 9 e 3
+                {
+                    if (matriz[0, 1] != 'O') { matriz[0,1] = 'X' ;}
+                    else { matriz[1,2] = 'X';}
+                }    
+                
+
+
+
+            }
+
+
+            if (rodada_bot == 5)
+            {
+                if (matriz[0, 0] == 'X' && matriz[2, 0] == 'X' && matriz[1, 2] == 'X')  // 1 e 7 e 6 e 2
+                {
+                    if (matriz[2, 2] != 'O') { matriz[2, 2] = 'X'; }
+                    else { matriz[2, 1] = 'X'; }
+                } 
+
+                else if (matriz[0, 0] == 'X' && matriz[2, 0] == 'X' && matriz[1, 2] == 'X')  // 1 e 7 e 6 e 8
+                {
+                    if (matriz[2, 2] != 'O') { matriz[2, 2] = 'X'; }
+                    else { matriz[2, 1] = 'X'; }
+                }
+
+
+            }
+
+
+
+
+
+
+            return false;
+        }
+
+        public static void imprimeTabuleiro(char[,] matriz)
+        {
+            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+            {
+                for (int col = 0; col < matriz.GetLength(1); col++)
+                {
+                    Console.Write(matriz[linha, col] + "\t" + " | " + "\t");
+                }
+                Console.WriteLine("");
+            }
+            Console.WriteLine("\n");
+
+        }
+
+        public static void easyBot(char[,] matriz) { 
         }
 
         public static bool WinCondition(char[,] matriz)
@@ -173,17 +274,8 @@ namespace Desafio_JogoDaVelha
                             }
                         } while (!valida);
                         Console.WriteLine($" o próximo jogador é: {jogador_atual}\n");
-
-                        for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
-                        {
-                            for (int col = 0; col < tabuleiro.GetLength(1); col++)
-                            {
-                                Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
-                            }
-                            Console.WriteLine("");
-                        }
-                        Console.WriteLine("\n");
-                        if (rodada > 9) { break; }
+                        imprimeTabuleiro(tabuleiro);
+                        if (rodada >= 9) { break; }
                     }
                     Console.WriteLine(" FIM DE JOGO!");
                     if (rodada >= 9 && WinCondition(tabuleiro) == false){ Console.WriteLine("EMPATE!"); }
@@ -218,47 +310,37 @@ namespace Desafio_JogoDaVelha
                             Console.WriteLine("\n\n");
                             Console.WriteLine("------------------------------------ \n");
 
-                            Console.WriteLine("Inicio de jogo:");
+                            Console.WriteLine("Inicio de jogo: \n\n");
 
 
                             while (!WinCondition(tabuleiro))
                             {
-                                valida = false;
+                                valida = true;
                                 do
                                 {
-                                    //Console.WriteLine($"Jogada {rodada2} Computador.");
+                                    jogador_atual = 'X';
                                     for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
                                     {
                                         for (int col = 0; col < tabuleiro.GetLength(1); col++)
                                         {
                                             int rand_linha = random.Next(0, 3);
                                             int rand_col = random.Next(0, 3);
-                                            if (tabuleiro[rand_linha, rand_col] != 'X' && tabuleiro[rand_linha, rand_col] != 'O' && !valida)
+                                            if (tabuleiro[rand_linha, rand_col] != 'X' && tabuleiro[rand_linha, rand_col] != 'O' && valida == true)
                                             {
                                                 tabuleiro[rand_linha, rand_col] = jogador_atual;
-                                                jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
-                                                valida = true;
-                                                break;
+                                                valida = false;
                                             }
                                         }
                                     }
-                                } while (!valida);
-                                //if (rodada2 >= 9) { break; }
-
-                                for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
-                                    {
-                                        for (int col = 0; col < tabuleiro.GetLength(1); col++)
-                                        {
-                                            Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
-                                        }
-                                        Console.WriteLine("");
-                                    }
-                                    Console.WriteLine("\n");
-
+                                } while (valida);
+                                imprimeTabuleiro(tabuleiro);
+                                Console.WriteLine("\n\n");
                                 do // faz uma jogada e alterna o jogador
                                 {
-                                    Console.WriteLine($"Jogada {rodada2} do Jogador {jogador_atual}, escolha uma posição válida do tabuleiro acima para jogar.");
+                                    Console.WriteLine($"Vez do Jogador, escolha uma posição válida do tabuleiro acima para jogar.");
                                     jogada = Console.ReadLine()[0];
+                                    jogador_atual = 'O';
+                                    Console.WriteLine("\n");
                                     for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
                                     {
                                         for (int col = 0; col < tabuleiro.GetLength(1); col++)
@@ -268,33 +350,97 @@ namespace Desafio_JogoDaVelha
                                                 tabuleiro[linha, col] = jogador_atual;
                                                 valida = true;
                                                 rodada2++;
-                                                jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
                                             }
                                         }
                                     }
                                 } while (!valida);
-                            if (rodada2 > 4) { break; }
+                                imprimeTabuleiro(tabuleiro);
+                                if (rodada2 > 4) { break; }
                             }
-
-
                             Console.WriteLine(" FIM DE JOGO!");
                             if (rodada2 > 4 && WinCondition(tabuleiro) == false) { Console.WriteLine("EMPATE!"); }
-                            else if (jogador_atual == 'O') { Console.WriteLine($"O vencedor foi: 'X'"); }
+                            else if (jogador_atual == 'X') { Console.WriteLine($"O vencedor foi: 'X'"); }
                             else { Console.WriteLine($"O vencedor foi: 'O'"); }
                         break; // break do case 2.1 - Vs computador Fácil
 
                         case '2':
+                            Console.WriteLine("Dificuldade: Difícil Selecionada");
+                            Console.WriteLine("------------------------------------ \n");
+                            Console.WriteLine("Tabuleiro do jogo:");
+                            int contador3 = 1;
+                            int rodadabot = 1;
+                            int rodada3 = 1;
+                            for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                {
+                                    tabuleiro[linha, col] = Convert.ToChar(contador3.ToString());
+                                    contador3++;
+                                    Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
+                                }
+                                Console.WriteLine("");
+                            }
+                            Console.WriteLine("\n\n");
+                            Console.WriteLine("------------------------------------ \n");
+
+                            Console.WriteLine("Inicio de jogo:");
+                            while (!WinCondition(tabuleiro))
+                            {
+                                Console.WriteLine($"Rodada{rodadabot} do Computador");
+                                HardBot(tabuleiro, rodadabot);
+                                jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
+                                rodadabot++;
+                                for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                                {
+                                    for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                    {
+                                        Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
+                                    }
+                                    Console.WriteLine("");
+                                }
+                                Console.WriteLine("\n");
+                                if (WinCondition(tabuleiro)) { break; }
+
+                                do // jogador faz uma jogada e alterna para o computador
+                                {
+                                    Console.WriteLine($"Jogada {rodada3} do Jogador {jogador_atual}, escolha uma posição válida do tabuleiro acima para jogar.");
+                                    jogada = Console.ReadLine()[0];
+                                    for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                                    {
+                                        for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                        {
+                                            if (tabuleiro[linha, col] == jogada && !valida)
+                                            {
+                                                tabuleiro[linha, col] = jogador_atual;
+                                                valida = true;
+                                                rodada3++;
+                                                jogador_atual = (jogador_atual == 'X') ? 'O' : 'X';
+                                                break;
+                                            }
+                                            valida = false;
+                                        }
+                                    }
+                                } while (!valida);
+                                for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
+                                {
+                                    for (int col = 0; col < tabuleiro.GetLength(1); col++)
+                                    {
+                                        Console.Write(tabuleiro[linha, col] + "\t" + " | " + "\t");
+                                    }
+                                    Console.WriteLine("");
+                                }
+                                Console.WriteLine("\n");
+                                if (rodadabot > 4) { break; }
+                            }
+                            Console.WriteLine(" FIM DE JOGO!");
+                            if (rodadabot > 4 && WinCondition(tabuleiro) == false) { Console.WriteLine("EMPATE!"); }
+                            else if (jogador_atual == 'O') { Console.WriteLine($"O vencedor foi: 'X'"); }
+                            else { Console.WriteLine($"O vencedor foi: 'O'"); }
 
 
 
 
-                        break; // Break do case 2.2 - Vs computador difícil
-
-                           
-
-
-
-
+                            break; // Break do case 2.2 - Vs computador difícil
 
 
                     }
