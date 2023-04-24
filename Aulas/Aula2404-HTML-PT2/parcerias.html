@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <p> Seja um parceiro, cadastre-se: </p>
+</head>
+<body>
+  <form action="processa.php" method="post"> 
+    <label for="nomeCompleto">Nome Completo:</label>
+      <input type="text" name="nomeCompleto" id="nome" required> <br>
+    <label for="adress">Endereço:</label>
+    <input type="text" name="adress" id="adress" required> <br>
+    <label for="sex">Sexo:</label>
+      <input type="radio" name="sex" value="male" required> Masculino
+      <input type="radio" name="sex" value="female" required> Feminino<br>
+    <label for="sex2"> Sexo:</label>
+    <select name="sex2" id="sex2"><br>
+      <option value="male">Masculino</option><br>
+      <option value="female">Feminino</option><br>
+    </select>
+    <br>
+    <label>Selecione algumas opções</label> 
+      <input type="checkbox" name="op1" value="op1"> Opção1
+      <input type="checkbox" name="op2" value="op2"> Opção2
+      <input type="checkbox" name="op3" value="op3"> Opção3
+      <br>
+    </select>
+    
+    <label for="email">email</label>
+      <input type="email" name="email" id="email"><br>
+    <label for="telefone">Telefone</label>
+      <input type="tel" name="telefone" id="telefone" ><br>
+    <label for="password">Senha:</label>
+      <input type="password" name="password" id="password"><br>
+    <label for="Carregar arquivo:"></label>
+    <input type="file">
+    <br>
+    <br>
+    <br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset"> Limpar</button>
+    <br>
+    <br>
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+  </form>
+
+
+
+  <ul>
+    <li><a href="amazon.com.br" target="_blank"> Página principal</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+    <li><a href="contato.html">Entre em contato</a></li>
+  </ul>
+</body>
+</html>
