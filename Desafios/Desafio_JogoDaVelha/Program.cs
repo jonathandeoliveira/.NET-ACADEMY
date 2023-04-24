@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System;
+using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 
 namespace Desafio_JogoDaVelha
@@ -68,7 +69,29 @@ namespace Desafio_JogoDaVelha
                 {
                     if (matriz[0, 1] != 'O') { matriz[0, 1] = 'X'; }
                     else if (matriz[2, 1] != 'O') { matriz[2, 1] = 'X'; }
-                    else { matriz[1, 1] = 'X'; }
+                    else if (matriz[1, 1] != 'O'){ matriz[1, 1] = 'X'; }
+                    else
+                    {
+                        bool valida = true;
+                        while (valida)
+                        {
+                            int index = random.Next(0, 10);
+                            char jogador_atual = 'X';
+                            char numero_random = Convert.ToChar(index.ToString());
+                            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < matriz.GetLength(1); col++)
+                                {
+                                    if (matriz[linha, col] == numero_random && valida == true)
+                                    {
+                                        matriz[linha, col] = jogador_atual;
+                                        valida = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                 }
             
             }
@@ -80,7 +103,28 @@ namespace Desafio_JogoDaVelha
                 {
                     if (matriz[1, 1] != 'O') { matriz[1, 1] = 'X'; }
                     else if (matriz[2,1] != 'O') { matriz[2, 1] = 'X'; }
-                    else if (matriz[0,0] != 'O') { matriz[0, 0] = 'X'; }
+                    else if (matriz[0,1] != 'O') { matriz[0, 1] = 'X'; }
+                    else
+                    {
+                        bool valida = true;
+                        while (valida)
+                        {
+                            int index = random.Next(0, 10);
+                            char jogador_atual = 'X';
+                            char numero_random = Convert.ToChar(index.ToString());
+                            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < matriz.GetLength(1); col++)
+                                {
+                                    if (matriz[linha, col] == numero_random && valida == true)
+                                    {
+                                        matriz[linha, col] = jogador_atual;
+                                        valida = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
 
 
@@ -89,8 +133,49 @@ namespace Desafio_JogoDaVelha
                     if (matriz[0, 1] != 'O') { matriz[0,1] = 'X' ;}
                     else if (matriz[1,2] != 'O') { matriz[1,2] = 'X';}
                     else if (matriz[1,0] != 'O') { matriz[1,0] = 'X'; }
+                    else
+                    {
+                        bool valida = true;
+                        while (valida)
+                        {
+                            int index = random.Next(0, 10);
+                            char jogador_atual = 'X';
+                            char numero_random = Convert.ToChar(index.ToString());
+                            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < matriz.GetLength(1); col++)
+                                {
+                                    if (matriz[linha, col] == numero_random && valida == true)
+                                    {
+                                        matriz[linha, col] = jogador_atual;
+                                        valida = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
-
+                else
+                {
+                    bool valida = true;
+                    while (valida)
+                    {
+                        int index = random.Next(0, 10);
+                        char jogador_atual = 'X';
+                        char numero_random = Convert.ToChar(index.ToString());
+                        for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                        {
+                            for (int col = 0; col < matriz.GetLength(1); col++)
+                            {
+                                if (matriz[linha, col] == numero_random && valida == true)
+                                {
+                                    matriz[linha, col] = jogador_atual;
+                                    valida = false;
+                                }
+                            }
+                        }
+                    }
+                }
 
             }
 
@@ -99,20 +184,104 @@ namespace Desafio_JogoDaVelha
             {
                 if (matriz[0, 0] == 'X' && matriz[2, 0] == 'X' && matriz[1, 2] == 'X')  // 1 e 7 e 6 e 2
                 {
-                    if (matriz[2, 2] != 'O') { matriz[2, 2] = 'X'; }
-                    else { matriz[2, 1] = 'X'; }
+                    if (matriz[2, 2] != 'O' && matriz[2, 2] != 'X') { matriz[2, 2] = 'X'; }
+                    else if (matriz[2, 1] != 'O' && matriz[2, 1] != 'X' ) { matriz[2, 1] = 'X'; }
+                    else
+                    {
+                        bool valida = true;
+                        while (valida)
+                        {
+                            int index = random.Next(0, 10);
+                            char jogador_atual = 'X';
+                            char numero_random = Convert.ToChar(index.ToString());
+                            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < matriz.GetLength(1); col++)
+                                {
+                                    if (matriz[linha, col] == numero_random && valida == true)
+                                    {
+                                        matriz[linha, col] = jogador_atual;
+                                        valida = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 } 
 
                 else if (matriz[0, 0] == 'X' && matriz[2, 0] == 'X' && matriz[1, 2] == 'X')  // 1 e 7 e 6 e 8
                 {
-                    if (matriz[2, 2] != 'O') { matriz[2, 2] = 'X'; }
-                    else { matriz[2, 1] = 'X'; }
+                    if (matriz[2, 2] != 'O' && matriz[2, 2] != 'X') { matriz[2, 2] = 'X'; }
+                    else if (matriz[2, 1] != 'O') { matriz[2, 1] = 'X'; }
+                    else
+                    {
+                        bool valida = true;
+                        while (valida)
+                        {
+                            int index = random.Next(0, 10);
+                            char jogador_atual = 'X';
+                            char numero_random = Convert.ToChar(index.ToString());
+                            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < matriz.GetLength(1); col++)
+                                {
+                                    if (matriz[linha, col] == numero_random && valida == true)
+                                    {
+                                        matriz[linha, col] = jogador_atual;
+                                        valida = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
 
                 else if (matriz[0, 0] == 'X' && matriz[0, 2] == 'X' && matriz[2, 1] == 'X')//  1 e 3 e 8 e 6
                 {
-                    if (matriz[2, 2] != 'O') { matriz[2, 2] = 'X'; }
-                    else { matriz[2, 0] = 'X'; }
+                    if (matriz[2, 2] != 'O' && matriz[2, 2] != 'X') { matriz[2, 2] = 'X'; }
+                    else if(matriz[2, 0] != 'O') { matriz[2, 0] = 'X'; }
+                    else
+                    {
+                        bool valida = true;
+                        while (valida)
+                        {
+                            int index = random.Next(0, 10);
+                            char jogador_atual = 'X';
+                            char numero_random = Convert.ToChar(index.ToString());
+                            for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                            {
+                                for (int col = 0; col < matriz.GetLength(1); col++)
+                                {
+                                    if (matriz[linha, col] == numero_random && valida == true)
+                                    {
+                                        matriz[linha, col] = jogador_atual;
+                                        valida = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    bool valida = true;
+                    while (valida)
+                    {
+                        int index = random.Next(0, 10);
+                        char jogador_atual = 'X';
+                        char numero_random = Convert.ToChar(index.ToString());
+                        for (int linha = 0; linha < matriz.GetLength(0); linha++)
+                        {
+                            for (int col = 0; col < matriz.GetLength(1); col++)
+                            {
+                                if (matriz[linha, col] == numero_random && valida == true)
+                                {
+                                    matriz[linha, col] = jogador_atual;
+                                    valida = false;
+                                }
+                            }
+                        }
+                    }
                 }
 
             }
@@ -400,6 +569,7 @@ namespace Desafio_JogoDaVelha
                                 rodadabot++;
                                 imprimeTabuleiro(tabuleiro);
                                 if (WinCondition(tabuleiro)) { break; }
+                                if (rodadabot > 5) { break; }
 
                                 do // faz uma jogada e alterna o jogador
                                 {
@@ -422,10 +592,11 @@ namespace Desafio_JogoDaVelha
                                     }
                                 } while (!valida);
                                 imprimeTabuleiro(tabuleiro);
-                                if (rodadabot >= 5 ) { break; }
+                                //if (rodadabot > 5 ) { break; }
                             }
+                            //imprimeTabuleiro(tabuleiro);
                             Console.WriteLine(" FIM DE JOGO!");
-                            if (rodadabot >= 5 && WinCondition(tabuleiro) == false) { Console.WriteLine("EMPATE!"); }
+                            if (rodadabot > 5 && WinCondition(tabuleiro) == false) { Console.WriteLine("EMPATE!"); }
                             else if (jogador_atual == 'X') { Console.WriteLine($"O vencedor foi: 'X'"); }
                             else { Console.WriteLine($"O vencedor foi: 'O'"); }
 
