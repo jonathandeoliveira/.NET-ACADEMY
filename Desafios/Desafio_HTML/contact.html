@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head >
+    <title> Anuncie sua motocicleta</title>
+    <link rel=" stylesheet" type="text/css" href="style.css">
+  </head>
+  <header class="header">
+    <h1> Custom Bikers Portal</h1>
+    <h2>O melhor local para você aprender sobre motos, fazer amizades e ficar em dia com lançamentos do mercado das duas rodas. </h2>
+    <a class="header-link" href="galery.html" target="_blank"> Anúncios de usadas  </a>
+  </header>
+  <body>
+    <div>
+      <form class="form" action="confirma.html" method="post">
+        <h1>Anuncie sua motocicleta:</h1>
+        <label for="nomeCompleto">Nome Completo:</label>
+          <input type="text" name="nomeCompleto" id="nome" placeholder="João Neves" required> <br>
+        <label for="brand">Marca da motocicleta:</label>
+        <input type="text" name="brand" id="brand" placeholder="Honda" required> <br>
+        <label for="brand">Modelo da motocicleta:</label>
+        <input type="text" name="brand" id="brand" placeholder="Shadow 600CC" required> <br>
+        <label for="brand">Ano da motocicleta:</label>
+        <input type="number" id="ano" name="ano" min="1900" max="2100" placeholder="2006" required> <br>
+        <label >Selecione pelo menos uma opção:</label> 
+          <input type="checkbox" name="sell" value="sell" > Venda
+          <input type="checkbox" name="trade" value="trade" > Troca
+          <br>
+        </select>
+        <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Seu melhor e-mail"><br>
+        <br>
+        <br>
+        <br>
+        <label for="mensagem">Nos conte um pouco sobre a motocicleta:</label><br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Uso apenas para viajar aos finais de semana, manutenção em dia, etc..."></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset"> Limpar</button>
+      </form>
+    </div>
+  </body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer class="footer" >
+    <div>
+      <a class="footer-link" href="about.html" target="_blank">
+        <i class="footer-link-icon">Sobre Nós</i>
+      </a>
+      <a class="footer-link" href="home.html">
+        <i class="footer-link-icon">Página Principal</i>
+      </a>
+    </div>
+    <p class="footer-text">© Custom Bikers Portal® Todos os direitos reservados</p>
+  </footer>
+
+</html>
