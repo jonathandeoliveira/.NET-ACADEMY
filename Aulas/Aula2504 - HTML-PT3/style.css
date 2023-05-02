@@ -1,0 +1,42 @@
+body {
+  background-color: #d9a8a8;
+  }
+
+#conteiner {
+  background-color: aqua;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-variant: normal;
+}
+.classe1{
+  background-color: cornflowerblue;
+  color: antiquewhite;
+}
+
+#divnova1{
+  float: none;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  background: orange;
+}
+#div1{
+  float: left;
+  width: 33%;
+  border: 1px solid black;
+  background: rgb(0, 255, 42);
+}
+#div2{
+  float: left;
+  width: 33%;
+  border: 1px solid black;
+  background: rgb(194, 18, 194);
+}
+#div3{
+  float: left;
+  clear: right;
+  width: 33%;
+  border: 1px solid black;
+  background: rgb(192, 114, 12);
+}

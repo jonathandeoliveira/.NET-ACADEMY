@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\bin\Debug\net6.0\Aula0205.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\bin\Debug\net6.0\Aula0205.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\bin\Debug\net6.0\Aula0205.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\bin\Debug\net6.0\Aula0205.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\bin\Debug\net6.0\Aula0205.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\refint\Aula0205.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\Aula0205.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula0205\obj\Debug\net6.0\ref\Aula0205.dll
