@@ -8,10 +8,18 @@ namespace L01Exercicio1
 {
     internal class Carro
     {
-        public Carro(string marca, string modelo, int anoFabricacao)
-        {
-            this.marca = marca;
+        public string marca, modelo;
+        public int anoFabricacao;
+  
 
+
+        public void exibeDados()
+        {
+            Console.WriteLine($"Dados do carro:");
+            Console.WriteLine($"Marca:{this.marca}");
+            Console.WriteLine($"Modelo:{this.marca}");
+            Console.WriteLine($"Ano de Fabricação:{this.marca}");
+            Console.WriteLine($"-----------------------------------------------");
         }
     }
 }
