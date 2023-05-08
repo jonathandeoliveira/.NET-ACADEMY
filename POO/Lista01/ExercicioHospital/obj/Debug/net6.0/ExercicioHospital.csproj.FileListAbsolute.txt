@@ -1,0 +1,5 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\POO\Lista01\ExercicioHospital\obj\Debug\net6.0\ExercicioHospital.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\POO\Lista01\ExercicioHospital\obj\Debug\net6.0\ExercicioHospital.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\POO\Lista01\ExercicioHospital\obj\Debug\net6.0\ExercicioHospital.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\POO\Lista01\ExercicioHospital\obj\Debug\net6.0\ExercicioHospital.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\POO\Lista01\ExercicioHospital\obj\Debug\net6.0\ExercicioHospital.csproj.CoreCompileInputs.cache

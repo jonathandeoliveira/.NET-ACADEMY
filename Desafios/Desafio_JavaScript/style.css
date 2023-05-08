@@ -1,0 +1,90 @@
+.cores{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  padding: 0px 30px 100px 30px;
+}
+
+#ex1{
+  float: left;
+  clear: right;
+  width: 33%;
+  height: 120px;
+  text-align: center;
+  border: 1px solid black;
+}
+#ex2{
+  float: left;
+  width: 33%;
+  height: 120px;
+  text-align: center; 
+  border: 1px solid black;
+  
+}
+#ex3{
+  float: left;
+  text-align: center;
+  width: 33%;
+  height: 120px;
+  border: 1px solid black;
+}
+.paragrafos {
+  display: flex;
+  flex-direction:row;
+  padding: 0px 30px 0px 30px;
+  margin-left: 30px;
+}
+#ex4{
+  float: left;
+  width: 33%;
+  justify-content: center;
+}
+.btn4{
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#ex6e7{
+  float: left;
+  width: 33%;
+  height: auto;
+  border-left: 1px solid black;
+  padding: 0px 30px 0px 30px;
+  font-size: 14px;
+}
+
+.btn6e7{
+  justify-content: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+
+.forms{
+  display: flex;
+  flex-direction:column;
+  padding: 0px 30px 10px 30px;
+  border: 1px solid black;
+  width: 33%;
+  margin-left: 30px;
+  height: auto;
+  justify-content: center;
+}
+
+
+#ex5{
+  float: left;
+  text-align:center;
+  justify-content: center;
+
+  width: auto;
+}
+#btn5{
+  text-align:center;
+}

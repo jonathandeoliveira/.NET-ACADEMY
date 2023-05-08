@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="exercicios.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <section class="cores">
+    <div class="" id ="ex1">
+      <br>
+      <br>
+      <form>
+        <button id ="b-red" type="button" onclick="document.body.style.backgroundColor = 'red'">Vermelho</button>
+        <button id ="b-green" type="button" onclick="document.body.style.backgroundColor = 'green'">Verde</button>
+        <button id ="b-blue" type="button" onclick="document.body.style.backgroundColor = 'blue'">Azul</button>
+        <button id ="b-yellow" type="button" onclick="document.body.style.backgroundColor = 'yellow'">Amarelo</button>
+      </form>
+    </div>
+    <div class="" id ="ex2">
+      <br>
+      <br>
+      <a id="link-red" href="" onmouseover="document.body.style.backgroundColor = 'cyan'">Ciano</a>
+      <a id="link-red" href="" onmouseover="document.body.style.backgroundColor = 'purple'">Roxo</a>
+      <a id="link-red" href="" onmouseover="document.body.style.backgroundColor = 'pink'">Rosa</a>
+      <a id="link-red" href="" onmouseover="document.body.style.backgroundColor = 'grey'">Cinza</a>
+    </div>
+    <div class="" id ="ex3" >
+      <br>
+      <form>
+        <label for="cor">Selecione uma cor:</label><br>
+        <input type="radio" id="red" name="cor" value="red" onclick="document.body.style.backgroundColor = 'greenyellow'">
+        <label for="red">Verde Limão</label><br>
+        <input type="radio" id="green" name="cor" value="green" onclick="document.body.style.backgroundColor = 'cornflowerblue'">
+        <label for="green">Azul claro</label><br>
+        <input type="radio" id="blue" name="cor" value="blue" onclick="document.body.style.backgroundColor = 'orange'">
+        <label for="blue">Laranja</label><br>
+        <input type="radio" id="yellow" name="cor" value="yellow" onclick="document.body.style.backgroundColor = 'brown'">
+        <label for="yellow">Marrom</label><br>
+      </form>
+      <br>
+    </div>
+  </section>
+
+  <section class="forms">
+    <div class="" id ="ex5" ></div>
+      <form >
+        O quanto você está gostando da academia .net da atos?<br>
+        <label ><input type="checkbox" name="check" value="Sim" onclick="checkChecks()">Sim</label><br>
+        <label ><input type="checkbox" name="check" value="Muito" onclick="checkChecks()">Muito </label><br>
+        <label ><input type="checkbox" name="check" value="Claro" onclick="checkChecks()">Claro</label><br>
+        <button id="btn5" disabled >Enviar</button>
+      </form>
+    </div>
+  </section>
+  <br><br><br><br><br><br>
+  <section class="paragrafos" style="border: 1px solid black;">
+    <div class="" id ="ex4">
+      <p>
+        Crie um parágrafo com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre o texto do parágrafo.<br>
+        Crie um parágrafo com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre o texto do parágrafo.<br>
+        Crie um parágrafo com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre o texto do parágrafo.<br>
+      </p>
+      </div>
+      <button class="btn4" onclick="toggleParagraph()">Mister M</button>
+
+      <div id ="ex6e7">
+        <p>
+          Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo.
+          Ainda continuando no exercício 6 faça um botão que transforme todo o texto do parágrafo em maiúscula, e outro em minúscula.<br>
+          Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo.
+          Ainda continuando no exercício 6 faça um botão que transforme todo o texto do parágrafo em maiúscula, e outro em minúscula.<br>
+        </p>
+      </div>
+      <div>
+        <button class="btn6e7" onclick="pBlackBackGroundColor()">Fundo Preto</button><br>
+        <button class="btn6e7" onclick="pWhiteFont()">Letra Branca</button><br>
+        <button class="btn6e7" onclick="pWhiteBackGroundColor()">Fundo Branco</button><br>
+        <button class="btn6e7" onclick="pBlackFont()">Letra Preta</button><br>
+        <button class="btn6e7" onclick="increaseFont()">Letra +</button><br>
+        <button class="btn6e7" onclick="decreaseFont()">Letra -</button><br>
+      </div>
+  </section>
+</body>
+</html>
