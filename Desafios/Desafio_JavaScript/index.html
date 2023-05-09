@@ -46,8 +46,8 @@
   </section>
 
   <section class="forms">
-    <div class="" id ="ex5" ></div>
-      <form >
+    <div>
+      <form id ="ex5">
         O quanto você está gostando da academia .net da atos?<br>
         <label ><input type="checkbox" name="check" value="Sim" onclick="checkChecks()">Sim</label><br>
         <label ><input type="checkbox" name="check" value="Muito" onclick="checkChecks()">Muito </label><br>
@@ -55,8 +55,27 @@
         <button id="btn5" disabled >Enviar</button>
       </form>
     </div>
+
+    <div>
+      <form id="ex9"  onsubmit="matchPasswords()" style="border: 1px solid black;">
+        <label for="usrname">Usuário:</label><br>
+          <input type="text" id="usrname" name="usrname" required> <br>
+        <label for="psw">Senha:</label><br>
+          <input type="password" id="psw" name="psw" 
+          title="Deve conter entre 6 e 10 caracteres" minlength="6" maxlength="10" required><br>
+        <label for="confirm-psw">Confirme a senha:</label>
+          <input type="password" id="confirm-psw" name="confirm-psw" 
+          title="Deve conter entre 6 e 10 caracteres" minlength="6" maxlength="10" required ><br>
+
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+
   </section>
+  
   <br><br><br><br><br><br>
+
   <section class="paragrafos" style="border: 1px solid black;">
     <div class="" id ="ex4">
       <p>
@@ -67,7 +86,7 @@
       </div>
       <button class="btn4" onclick="toggleParagraph()">Mister M</button>
 
-      <div id ="ex6e7">
+      <div id ="ex6e7e8">
         <p>
           Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo.
           Ainda continuando no exercício 6 faça um botão que transforme todo o texto do parágrafo em maiúscula, e outro em minúscula.<br>
@@ -76,12 +95,14 @@
         </p>
       </div>
       <div>
-        <button class="btn6e7" onclick="pBlackBackGroundColor()">Fundo Preto</button><br>
-        <button class="btn6e7" onclick="pWhiteFont()">Letra Branca</button><br>
-        <button class="btn6e7" onclick="pWhiteBackGroundColor()">Fundo Branco</button><br>
-        <button class="btn6e7" onclick="pBlackFont()">Letra Preta</button><br>
-        <button class="btn6e7" onclick="increaseFont()">Letra +</button><br>
-        <button class="btn6e7" onclick="decreaseFont()">Letra -</button><br>
+        <button class="btn6e7e8" onclick="pBlackBackGroundColor()">Fundo Preto</button><br>
+        <button class="btn6e7e8" onclick="pWhiteFont()">Letra Branca</button><br>
+        <button class="btn6e7e8" onclick="pWhiteBackGroundColor()">Fundo Branco</button><br>
+        <button class="btn6e7e8" onclick="pBlackFont()">Letra Preta</button><br>
+        <button class="btn6e7e8" onclick="increaseFont()">Letra +</button><br>
+        <button class="btn6e7e8" onclick="decreaseFont()">Letra -</button><br>
+        <button class="btn6e7e8" onclick="pUpCase()">Caixa Alta</button><br>
+        <button class="btn6e7e8" onclick="pDownCase()">Caixa Baixa</button><br>
       </div>
   </section>
 </body>

@@ -18,26 +18,45 @@ function checkChecks(){
 }
 
 function increaseFont(){
-  var font = parseInt(window.getComputedStyle(document.getElementById("ex6e7")).getPropertyValue('font-size'));
+  var font = parseInt(window.getComputedStyle(document.getElementById("ex6e7e8")).getPropertyValue('font-size'));
   console.log(font);
-  document.getElementById("ex6e7").style.fontSize = (font+2)+"px";
+  document.getElementById("ex6e7e8").style.fontSize = (font+2)+"px";
 }
 function decreaseFont(){
-  var font = parseInt(window.getComputedStyle(document.getElementById("ex6e7")).getPropertyValue("font-size"));
+  var font = parseInt(window.getComputedStyle(document.getElementById("ex6e7e8")).getPropertyValue("font-size"));
   console.log(font);
-  document.getElementById("ex6e7").style.fontSize = (font-2)+"px";
+  document.getElementById("ex6e7e8").style.fontSize = (font-2)+"px";
 }
 
 function pWhiteBackGroundColor(){
-  document.getElementById("ex6e7").style.backgroundColor = "white"
+  document.getElementById("ex6e7e8").style.backgroundColor = "white";
 }
 
 function pBlackBackGroundColor(){
-  document.getElementById("ex6e7").style.backgroundColor = "black"
+  document.getElementById("ex6e7e8").style.backgroundColor = "black";
 }
 function pWhiteFont(){
-  document.getElementById("ex6e7").style.color = "white"
+  document.getElementById("ex6e7e8").style.color = "white";
 }
 function pBlackFont(){
-  document.getElementById("ex6e7").style.color = "black";
+  document.getElementById("ex6e7e8").style.color = "black";
 }
+function pUpCase(){
+  var p = document.getElementById("ex6e7e8");
+  maiusucla = p.textContent.toUpperCase();
+  p.textContent = maiusucla;
+}
+function pDownCase(){
+  var p = document.getElementById("ex6e7e8");
+  minuscula = p.textContent.toLowerCase();
+  p.textContent = minuscula;
+}
+
+function matchPasswords(){
+  senha = document.getElementById("psw");
+  confirma_senha = document.getElementById("confirm-psw");
+  if (senha !== confirma_senha) {
+    alert("A senha e a confirmação devem ser iguais.");
+  }
+}
+
