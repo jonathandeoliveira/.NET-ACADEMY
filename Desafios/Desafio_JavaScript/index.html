@@ -10,6 +10,7 @@
 </head>
 <body>
   <section class="cores">
+    <!-- Exercício 1-->
     <div class="" id ="ex1">
       <br>
       <br>
@@ -20,6 +21,7 @@
         <button id ="b-yellow" type="button" onclick="document.body.style.backgroundColor = 'yellow'">Amarelo</button>
       </form>
     </div>
+    <!-- Exercício 2-->
     <div class="" id ="ex2">
       <br>
       <br>
@@ -28,6 +30,7 @@
       <a id="link-red" href="" onmouseover="document.body.style.backgroundColor = 'pink'">Rosa</a>
       <a id="link-red" href="" onmouseover="document.body.style.backgroundColor = 'grey'">Cinza</a>
     </div>
+    <!-- Exercício 3-->
     <div class="" id ="ex3" >
       <br>
       <form>
@@ -44,10 +47,10 @@
       <br>
     </div>
   </section>
-
+  <!-- Exercício 5-->
   <section class="forms">
-    <div>
-      <form id ="ex5">
+    <div id ="ex5" > 
+      <form >
         O quanto você está gostando da academia .net da atos?<br>
         <label ><input type="checkbox" name="check" value="Sim" onclick="checkChecks()">Sim</label><br>
         <label ><input type="checkbox" name="check" value="Muito" onclick="checkChecks()">Muito </label><br>
@@ -56,36 +59,76 @@
       </form>
     </div>
 
-    <div>
-      <form id="ex9"  onsubmit="matchPasswords()" style="border: 1px solid black;">
+    <div id="ex9" > <!-- exercício 9 -->
+      <form  onsubmit="matchPasswords()">
         <label for="usrname">Usuário:</label><br>
           <input type="text" id="usrname" name="usrname" required> <br>
         <label for="psw">Senha:</label><br>
           <input type="password" id="psw" name="psw" 
           title="Deve conter entre 6 e 10 caracteres" minlength="6" maxlength="10" required><br>
-        <label for="confirm-psw">Confirme a senha:</label>
+        <label for="confirm-psw">Confirme a senha:</label><br>
           <input type="password" id="confirm-psw" name="confirm-psw" 
           title="Deve conter entre 6 e 10 caracteres" minlength="6" maxlength="10" required ><br>
-
 
         <input type="submit" value="Enviar">
       </form>
     </div>
+    <div id="ex10"><!-- Exercício 10-->
+      <form onsubmit="" >
+        <label for="name">Nome:</label><br>
+          <input type="text" id="name" name="name" placeholder="João Neves" required> <br>
+        <div>
+          <strong>Você é: </strong><br>
+          <label for="document">Pessoa Física</label>
+          <input type="radio" id="box-document-cpf" name="document" value="cpf" onclick="checaBox()"><br>
+          <label for="document">Pessoa Jurídica</label>
+          <input type="radio" id="box-document-cnpj" name="document" value="cnpj" onclick="checaBox()"><br>
+          <div id="form-CPF" style="display: none;">
+            <label for="text-document-cpf">Insira seu CPF:</label><br>
+            <input type="text" id="text-document-cpf" name="text-document-cpf" 
+            placeholder="123.456.789-10"
+            title="Insira um CPF Válido"> <br>
+          </div>
+          <div id="form-CPNJ" style="display: none;">
+            <label for="text-document-cnpj">Insira seu CNPJ:</label><br>
+            <input type="text" id="text-document-cnpj" name="text-document-cnpj" 
+            placeholder="XX.XXX.XXX/000X-XX."
+            title="Insira um CNPJ Válido"> <br>
+          </div>
+        </div>
 
+        <div id="input-birthday" style="display: none;">
+          <label for="birthday">Data de Nascimento:</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+        </div>
+
+        <label for="postal-code">CEP:</label><br>
+          <input type="text" name="postal-code" id="postal-code" required 
+          placeholder="12345-678"
+          pattern="^\d{2}\d{3}[-]\d{3}$"
+          title="Insira um CEP Válido"><br>
+        <label for="psw">Endereço:</label><br>
+          <input type="text" id="adress" name="adress" required><br>
+        <label for="phone">Telefone:</label><br>
+          <input type="text" id="phone" name="phone" required><br>
+        <label for="email">E-mail:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <input type="submit" value="Enviar"><br><br>
+      </form>
+    </div>
   </section>
   
-  <br><br><br><br><br><br>
+  <br><br>
 
   <section class="paragrafos" style="border: 1px solid black;">
-    <div class="" id ="ex4">
-      <p>
+    <!-- Exercício 4-->
+      <p id ="ex4" >
         Crie um parágrafo com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre o texto do parágrafo.<br>
         Crie um parágrafo com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre o texto do parágrafo.<br>
         Crie um parágrafo com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre o texto do parágrafo.<br>
       </p>
-      </div>
       <button class="btn4" onclick="toggleParagraph()">Mister M</button>
-
+      <!-- Exercícios 6 , 7 e 8 -->
       <div id ="ex6e7e8">
         <p>
           Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo.

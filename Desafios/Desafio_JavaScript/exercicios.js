@@ -1,9 +1,12 @@
 function toggleParagraph() {
   var toggle = document.getElementById("ex4");
+  var misterm = document.getElementById("misterm");
   if (toggle.style.display === "none") {
     toggle.style.display = "block";
+    misterm.style.display = "block"
   } else {
     toggle.style.display = "none";
+    misterm.style.display = "none"
   }
 }
 
@@ -60,3 +63,25 @@ function matchPasswords(){
   }
 }
 
+function checaBox() {
+  var boxCPF = document.getElementById("box-document-cpf");
+  var boxCNPJ = document.getElementById("box-document-cnpj");
+  var formCPF = document.getElementById("form-CPF");
+  var formCNPJ = document.getElementById("form-CPNJ");
+  var birthdayField = document.getElementById("input-birthday");
+
+  if (boxCPF.checked) {
+    formCPF.style.display = "block";
+    formCNPJ.style.display = "none";
+    birthdayField.style.display = "block";
+  } else if (boxCNPJ.checked) {
+    formCPF.style.display = "none";
+    formCNPJ.style.display = "block";
+    birthdayField.style.display = "none";
+  } else {
+    formCPF.style.display = "none";
+    formCNPJ.style.display = "none";
+    birthdayField.style.display = "none";
+
+  }
+}

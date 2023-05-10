@@ -1,6 +1,6 @@
 .cores{
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
   height: 120px;
   padding: 0px 30px 20px 30px;
@@ -14,6 +14,7 @@
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-left: 1px solid black;
+  margin-left: -10px;
 }
 #ex2{
   float: left;
@@ -22,6 +23,7 @@
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-left: 1px solid black;
+  
 }
 
 #ex3{
@@ -32,28 +34,35 @@
 }
 .paragrafos {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   padding: 0px 30px 0px 30px;
   margin-left: 30px;
 }
+
 #ex4{
   float: left;
-  width: 33%;
   justify-content: center;
+  width: 50%;
+  text-align: center;
+  background-image: url(https://i0.statig.com.br/bancodeimagens/94/2d/f5/942df5vk190ginjaxgbof2c4z.jpg);
+  color: bisque;
+  background-size: cover;
 }
+
 .btn4{
   width: 100px;
   height: 40px;
   border: 1px solid black;
   border-radius: 30px;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 6%;
+
 }
 .btn4:hover {background-color:rgb(64, 112, 216)}
 
 #ex6e7e8{
   float: left;
-  width: 33%;
+  width: 50%;
   height: auto;
   border-left: 1px solid black;
   padding: 0px 30px 0px 30px;
@@ -77,31 +86,50 @@
 }
 
 .forms{
-  display: flex;
-  flex-direction:row;
+  /* display: flex;
+  flex-direction: row;
   padding: 0px 30px 0px 30px;
-  width: 33%;
+  text-align: center; */
+  display: flex;
+  flex-direction: row;
   height: auto;
-  text-align:center;
+  margin-left: 30px;
 }
 
 #ex5{
   float: left;
-  text-align:center;
+  text-align: center;
   justify-content: center;
-  height: 200px;
+  width: 33%;
+  padding: 30px 30px 0px 30px;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-left: 1px solid black;
-  padding: 30px 30px 0px 30px;
-
 }
 
 #ex9{
   float: left;
-  text-align:center;
+  text-align: center;
   justify-content: center;
-  height: 200px;
+  width: 33%;
   padding: 30px 30px 0px 30px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
 
 }
+#ex10{
+  float: left;
+  text-align: center;
+  justify-content: center;
+  width: 33%;
+  padding: 30px 30px 0px 30px;
+  border: 1px solid black;
+}
+/* 
+#form-CPF{
+  display: none;
+}
+#form-CPNJ{
+  display: none;
+} */
