@@ -28,6 +28,4 @@ namespace Aula15_05
             Console.WriteLine("Carreguei 10%");
         }
     }
-
-    }
 }
