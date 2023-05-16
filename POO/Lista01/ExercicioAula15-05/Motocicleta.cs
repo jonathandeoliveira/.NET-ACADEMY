@@ -14,7 +14,7 @@ namespace ExercicioAula15_05
         public double Cilindrada { get; set; }
 
 
-        public void Dirigir()
+        public virtual void Dirigir()
         {
             Console.WriteLine($"Dirigindo um {this.marca} - {this.modelo} de {this.Cilindrada}  Cilidradas.");
         }
