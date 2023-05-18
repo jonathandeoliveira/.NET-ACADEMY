@@ -23,10 +23,10 @@ namespace Aula12_05
         {
             Nome = nome;
             DataNascimento = dataNascimento;
-            Email = gerarEmail();
+            gerarEmail();
         }
 
-        public string gerarEmail()
+        public void gerarEmail()
         {
             try
             {
