@@ -36,3 +36,124 @@ CREATE TABLE LIVROAUTOR
 	FK_AUTOR INTEGER NOT NULL,
 	FOREIGN KEY (FK_AUTOR) REFERENCES AUTOR(ID) 
 );
+
+SELECT * FROM AUTOR;
+
+
+INSERT INTO AUTOR
+VALUES('Affonso Solano', 'Brasil');
+INSERT INTO AUTOR
+VALUES('Bianca Mól', 'Brasil');
+INSERT INTO AUTOR
+VALUES('Ciro Botelho - Tiririca', 'Brasil');
+INSERT INTO AUTOR
+VALUES('Marcos Piangers', 'Brasil');
+
+INSERT INTO AUTOR
+VALUES('Clive Staples Lewis', 'Inglaterra');
+INSERT INTO AUTOR
+VALUES('J. K. Rowling', 'Inglaterra');
+
+SELECT * FROM AUTOR;
+
+INSERT INTO CATEGORIA
+VALUES('Humor');
+
+INSERT INTO CATEGORIA
+VALUES('Literatura Juvenil');
+
+INSERT INTO CATEGORIA
+VALUES('Ficção Científica');
+
+SELECT * FROM CATEGORIA;
+
+INSERT INTO EDITORA
+VALUES('Belas Letras');
+INSERT INTO EDITORA
+VALUES('Casa da Palavra');
+INSERT INTO EDITORA
+VALUES('Matrix');
+INSERT INTO EDITORA
+VALUES('Rocco');
+INSERT INTO EDITORA
+VALUES('Wmf Martins Fontes');
+
+
+SELECT * FROM CATEGORIA;
+SELECT * FROM LIVRO;
+SELECT * FROM EDITORA;
+SELECT * FROM LIVRO;
+SELECT * FROM AUTOR;
+
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('8532511015', 'Harry Potter e A Pedra Filosofal','2000-01-01 00:00:00',2,4);
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('9788575457', 'As Crônicas de Nárnia','2009-01-01 00:00:00',2,5);
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('9874125467', 'O Espadachim de Carvão','2013-01-01 00:00:00',3,2);
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('13534856479', 'O Papai É Pop','2015-01-01 00:00:00',1,1);
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('8749685745', 'Pior Que Tá Não Fica','2015-01-01 00:00:00',1,3);
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('24866757447', 'Garota Desdobrável','2015-01-01 00:00:00',2,2);
+
+INSERT INTO LIVRO(ISBN,TITULO,ANO_PUBLICACAO,FK_CATEGORIA,FK_EDITORA)
+VALUES('352457895835', 'Harry Potter e o prisioneiro de Azkaban','2000-01-01 00:00:00',2,4);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('8532511015',6);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('352457895835',6);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('13534856479',4);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('24866757447',2);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('8749685745',3);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('9788575457',5);
+
+INSERT INTO LIVROAUTOR(FK_LIVRO,FK_AUTOR)
+VALUES('9874125467',1);
+
+select * from LIVRO
+select * from CATEGORIA
+
+
+
+--1. Relacione as entidades e seus respectivos atributos para este banco de dados;
+--2. Crie o modelo conceitual desde banco de dados e 3. Crie o modelo lógico deste banco de dados; (ignorar)
+--4. Crie o comando SQL para a criação do banco de dados BIBLIOTECA;
+--5. Crie o comando SQL para a criação das tabelas solicitadas;
+--6. Crie o comando SQL para inserção dos referidos dados em todas as tabelas;
+--7. Crie uma consulta para relacionar todos os dados disponíveis de todos os livros existentes na biblioteca en alfabética de título;
+	SELECT * FROM LIVRO 
+	order by TITULO
+--8. Crie uma consulta para relacionar todos os dados disponíveis de todos os livros existentes na biblioteca en alfabética de Autor;
+	SELECT * FROM LIVROAUTOR 
+	order by FK_AUTOR
+
+--9. Crie uma consulta para relacionar todos os dados disponíveis dos livros da categoria de literatura Juvenil e ordem de ano;
+	SELECT * FROM LIVRO
+	WHERE FK_CATEGORIA = 2
+	ORDER BY ANO_PUBLICACAO ASC
+	
+ 
+
+--10. Crie uma consulta para relacionar todos os dados disponíveis dos livros de humor ou ficção científica con 2000 e 2010.
+		SELECT * FROM LIVRO
+		WHERE (FK_CATEGORIA = 1 OR FK_CATEGORIA = 3) AND  (YEAR(ANO_PUBLICACAO) >= 2000) and (YEAR(ANO_PUBLICACAO) <= 2010);
+
+		
