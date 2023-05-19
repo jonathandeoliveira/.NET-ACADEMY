@@ -1,0 +1,17 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\bin\Debug\net6.0-windows\Aula1905-WindowsForms.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\bin\Debug\net6.0-windows\Aula1905-WindowsForms.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\bin\Debug\net6.0-windows\Aula1905-WindowsForms.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\bin\Debug\net6.0-windows\Aula1905-WindowsForms.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\bin\Debug\net6.0-windows\Aula1905-WindowsForms.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905_WindowsForms.FormPrincipal.resources
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.csproj.GenerateResource.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\refint\Aula1905-WindowsForms.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\Aula1905-WindowsForms.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula1905-WindowsForms\obj\Debug\net6.0-windows\ref\Aula1905-WindowsForms.dll
