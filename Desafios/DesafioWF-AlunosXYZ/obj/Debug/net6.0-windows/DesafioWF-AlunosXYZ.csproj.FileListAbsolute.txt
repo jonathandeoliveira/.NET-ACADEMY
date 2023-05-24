@@ -1,0 +1,17 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\bin\Debug\net6.0-windows\DesafioWF-AlunosXYZ.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\bin\Debug\net6.0-windows\DesafioWF-AlunosXYZ.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\bin\Debug\net6.0-windows\DesafioWF-AlunosXYZ.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\bin\Debug\net6.0-windows\DesafioWF-AlunosXYZ.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\bin\Debug\net6.0-windows\DesafioWF-AlunosXYZ.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF_AlunosXYZ.Form1.resources
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.csproj.GenerateResource.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\refint\DesafioWF-AlunosXYZ.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\DesafioWF-AlunosXYZ.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Desafios\DesafioWF-AlunosXYZ\obj\Debug\net6.0-windows\ref\DesafioWF-AlunosXYZ.dll
