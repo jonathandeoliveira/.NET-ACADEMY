@@ -156,4 +156,18 @@ select * from CATEGORIA
 		SELECT * FROM LIVRO
 		WHERE (FK_CATEGORIA = 1 OR FK_CATEGORIA = 3) AND  (YEAR(ANO_PUBLICACAO) >= 2000) and (YEAR(ANO_PUBLICACAO) <= 2010);
 
-		
+	---- ///  Aula 23/05  /// ---
+
+select livro.isbn, livro.titulo, 
+    LIVRO.ano_publicacao, 
+    editora.nome as 'Editora', 
+    CATEGORIA.tipo_categoria as 'Categoria',
+	AUTOR.nome as 'Autor'
+from LIVRO, editora, CATEGORIA, LIVROAUTOR,AUTOR
+where LIVRO.fk_editora = editora.id 
+	and livro.fk_categoria = CATEGORIA.id 
+	and LIVROAUTOR.fk_livro = LIVRO.isbn 
+	and LIVROAUTOR.FK_AUTOR = AUTOR.ID
+order by livro.TITULO
+
+select * from CATEGORIA
