@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DesafioWF_Estacionamento
 {
@@ -34,12 +35,12 @@ namespace DesafioWF_Estacionamento
             try
             {
                 StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8);
-                string[] vetorLinha; //[nome, email, dataNascimento]
+                string[] vetorLinha; 
                 string linha;
                 do
                 {
-                    linha = leitor.ReadLine();//Leandro Di Nardo Lazarin;lazarin@ufn.edu.br;12/12/1990
-                    vetorLinha = linha.Split(";"); //[Leandro Di Nardo Lazarin, lazarin@ufn.edu.br, 12/12/1990]
+                    linha = leitor.ReadLine();
+                    vetorLinha = linha.Split(";");
                     lista.Add(new Veiculo(vetorLinha[0], vetorLinha[1], vetorLinha[2]));
                 } while (!leitor.EndOfStream);
                 leitor.Close();
@@ -59,9 +60,10 @@ namespace DesafioWF_Estacionamento
                 StreamWriter escritor = new StreamWriter("veiculoEntrada.dat", append: true);
                 foreach (var veiculo in lista)
                 {
-                    escritor.WriteLine(veiculo.Placa + ";" + veiculo.DataEntrada + ";" + veiculo.HoraEntrada);
+
+                    escritor.WriteLine($"{veiculo.Placa}: {veiculo.DataEntrada.ToString("dd/MM/yyyy")} - {veiculo.HoraEntrada.ToString("HH:mm")}");
                     escritor.Flush();
-                    listbox.Items.Add(veiculo.Placa + " - " + veiculo.DataEntrada + " - " + veiculo.HoraEntrada);
+                    listbox.Items.Add($"{veiculo.Placa}: {veiculo.DataEntrada.ToString("dd/MM/yyyy")} - {veiculo.HoraEntrada.ToString("HH:mm")}");
                 }
                 escritor.Close();
             }
@@ -71,16 +73,17 @@ namespace DesafioWF_Estacionamento
             }
         }
 
-        public static void gravarArquivoVeiculosSaida(List<Veiculo> lista, string nomeArquivo)
+        public static void gravarArquivoVeiculosSaida(List<Veiculo> lista, ListBox listbox)
         {
             try
             {
-                StreamWriter escritor = new StreamWriter(nomeArquivo); //sempre o arquivo é criado do zero
+                StreamWriter escritor = new StreamWriter("veiculoSaida.dat"); //sempre o arquivo é criado do zero
                                                                        //StreamWriter escritor = new StreamWriter(nomeArquivo, append:true); //possibilidade de adionar dados no arquivo
                 foreach (var veiculo in lista)
                 {
                     escritor.WriteLine(veiculo.Placa + ";" + veiculo.DataEntrada + ";" + veiculo.DataSaida);
                     escritor.Flush();
+                    listbox.Items.Add($"{veiculo.Placa} - {veiculo.DataEntrada} - {veiculo.HoraEntrada}");
                 }
                 escritor.Close();
             }

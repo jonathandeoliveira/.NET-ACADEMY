@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,11 +9,11 @@ namespace DesafioWF_Estacionamento
 {
     internal class Veiculo
     {
-        public string Placa; //-> 7 caracteres -> verificar jaNaGaragem
-        public DateTime DataEntrada;
-        public string HoraEntrada;
+        public string Placa; //-> 7 caracteres
+        public DateOnly DataEntrada;
+        public DateTime HoraEntrada;
         public DateTime DataSaida;
-        public string HoraSaida;
+        public DateTime HoraSaida;
         public double TempoPermanecia;
         public double ValorCobrado;
 
@@ -21,27 +22,45 @@ namespace DesafioWF_Estacionamento
             Placa = placa;
         }
 
-        public Veiculo(string placa, DateTime dataEntrada, string horaEntrada) : this(placa)
+        public Veiculo(string placa, string dataEntrada, string horaEntrada) : this(placa)
         {
-            DataEntrada = dataEntrada;
-            HoraEntrada = horaEntrada;
+            DataEntrada = DateOnly.Parse(dataEntrada);
+            HoraEntrada = DateTime.Parse(horaEntrada);
         }
 
-        public static void gerarData() 
+        public static void gerarDataHora(TextBox data, TextBox horario) 
         {
+            var cultureInfo = new CultureInfo("pt-BR");
+ 
         }
 
-        public static void jaCadastrada(string placa)
+        public static void jaCadastrada(string placa, ListBox garagem)
         {
+            garagem.Items.Contains(placa);
         }
 
-        public static void temLugar(int vagaRestantes)
+        public static bool temLugar(int vagasTotais, int vagasOcupadas)
         {
-
+            if (vagasTotais > vagasOcupadas)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public static void jaNaGaragem(string placa, ListBox listBox)
+        public static bool jaNaGaragem(string placa, List<Veiculo> veiculosGaragem) // (string placa, ListBox veiculosGaragem)
         {
+            foreach (var veiculo in veiculosGaragem)   // veiculosGaragem.Items.Contains(placa);
+            {
+                if (veiculo.Placa == placa)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
     }

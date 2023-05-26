@@ -28,67 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             labelTitulo = new Label();
-            labelDia = new Label();
-            labelHorario = new Label();
-            textBoxDia = new TextBox();
-            textBoxHorario = new TextBox();
             listBoxEntradaVeiculos = new ListBox();
             listBoxSaidaVeiculos = new ListBox();
-            labelMes = new Label();
-            textBoxMes = new TextBox();
-            labelAno = new Label();
-            textBoxAno = new TextBox();
             labelEntradaVeiculos = new Label();
             labelSaidaVeiculos = new Label();
-            groupBox1 = new GroupBox();
+            groupBoxListasVeiculos = new GroupBox();
             textBoxPlaca = new TextBox();
             label1 = new Label();
             btnEntrada = new Button();
             btnSaida = new Button();
-            groupBox1.SuspendLayout();
+            labelHoraRelogio = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            labelDataRelogio = new Label();
+            label2 = new Label();
+            groupBoxListasVeiculos.SuspendLayout();
             SuspendLayout();
             // 
             // labelTitulo
             // 
             labelTitulo.AutoSize = true;
-            labelTitulo.Location = new Point(282, 9);
+            labelTitulo.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            labelTitulo.Location = new Point(235, 28);
             labelTitulo.Name = "labelTitulo";
-            labelTitulo.Size = new Size(227, 15);
+            labelTitulo.Size = new Size(487, 34);
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "Bem vindo ao sistema de estacionamento";
-            // 
-            // labelDia
-            // 
-            labelDia.AutoSize = true;
-            labelDia.Location = new Point(33, 60);
-            labelDia.Name = "labelDia";
-            labelDia.Size = new Size(27, 15);
-            labelDia.TabIndex = 1;
-            labelDia.Text = "Dia:";
-            // 
-            // labelHorario
-            // 
-            labelHorario.AutoSize = true;
-            labelHorario.Location = new Point(10, 147);
-            labelHorario.Name = "labelHorario";
-            labelHorario.Size = new Size(50, 15);
-            labelHorario.TabIndex = 2;
-            labelHorario.Text = "Horário:";
-            // 
-            // textBoxDia
-            // 
-            textBoxDia.Location = new Point(66, 57);
-            textBoxDia.Name = "textBoxDia";
-            textBoxDia.Size = new Size(100, 23);
-            textBoxDia.TabIndex = 3;
-            // 
-            // textBoxHorario
-            // 
-            textBoxHorario.Location = new Point(66, 144);
-            textBoxHorario.Name = "textBoxHorario";
-            textBoxHorario.Size = new Size(100, 23);
-            textBoxHorario.TabIndex = 4;
             // 
             // listBoxEntradaVeiculos
             // 
@@ -108,38 +74,6 @@
             listBoxSaidaVeiculos.Size = new Size(207, 379);
             listBoxSaidaVeiculos.TabIndex = 6;
             // 
-            // labelMes
-            // 
-            labelMes.AutoSize = true;
-            labelMes.Location = new Point(28, 89);
-            labelMes.Name = "labelMes";
-            labelMes.Size = new Size(32, 15);
-            labelMes.TabIndex = 7;
-            labelMes.Text = "Mês:";
-            // 
-            // textBoxMes
-            // 
-            textBoxMes.Location = new Point(67, 86);
-            textBoxMes.Name = "textBoxMes";
-            textBoxMes.Size = new Size(100, 23);
-            textBoxMes.TabIndex = 8;
-            // 
-            // labelAno
-            // 
-            labelAno.AutoSize = true;
-            labelAno.Location = new Point(28, 118);
-            labelAno.Name = "labelAno";
-            labelAno.Size = new Size(32, 15);
-            labelAno.TabIndex = 9;
-            labelAno.Text = "Ano:";
-            // 
-            // textBoxAno
-            // 
-            textBoxAno.Location = new Point(67, 115);
-            textBoxAno.Name = "textBoxAno";
-            textBoxAno.Size = new Size(100, 23);
-            textBoxAno.TabIndex = 10;
-            // 
             // labelEntradaVeiculos
             // 
             labelEntradaVeiculos.AutoSize = true;
@@ -158,22 +92,21 @@
             labelSaidaVeiculos.TabIndex = 12;
             labelSaidaVeiculos.Text = "Lista de Saída:";
             // 
-            // groupBox1
+            // groupBoxListasVeiculos
             // 
-            groupBox1.Controls.Add(labelEntradaVeiculos);
-            groupBox1.Controls.Add(labelSaidaVeiculos);
-            groupBox1.Controls.Add(listBoxEntradaVeiculos);
-            groupBox1.Controls.Add(listBoxSaidaVeiculos);
-            groupBox1.Location = new Point(363, 47);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(425, 426);
-            groupBox1.TabIndex = 13;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            groupBoxListasVeiculos.Controls.Add(labelEntradaVeiculos);
+            groupBoxListasVeiculos.Controls.Add(labelSaidaVeiculos);
+            groupBoxListasVeiculos.Controls.Add(listBoxEntradaVeiculos);
+            groupBoxListasVeiculos.Controls.Add(listBoxSaidaVeiculos);
+            groupBoxListasVeiculos.Location = new Point(244, 92);
+            groupBoxListasVeiculos.Name = "groupBoxListasVeiculos";
+            groupBoxListasVeiculos.Size = new Size(425, 426);
+            groupBoxListasVeiculos.TabIndex = 13;
+            groupBoxListasVeiculos.TabStop = false;
             // 
             // textBoxPlaca
             // 
-            textBoxPlaca.Location = new Point(66, 173);
+            textBoxPlaca.Location = new Point(57, 189);
             textBoxPlaca.Name = "textBoxPlaca";
             textBoxPlaca.Size = new Size(100, 23);
             textBoxPlaca.TabIndex = 15;
@@ -181,7 +114,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(22, 176);
+            label1.Location = new Point(12, 192);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 14;
@@ -189,7 +122,7 @@
             // 
             // btnEntrada
             // 
-            btnEntrada.Location = new Point(38, 202);
+            btnEntrada.Location = new Point(21, 218);
             btnEntrada.Name = "btnEntrada";
             btnEntrada.Size = new Size(75, 23);
             btnEntrada.TabIndex = 16;
@@ -199,12 +132,47 @@
             // 
             // btnSaida
             // 
-            btnSaida.Location = new Point(119, 202);
+            btnSaida.Location = new Point(111, 218);
             btnSaida.Name = "btnSaida";
             btnSaida.Size = new Size(75, 23);
             btnSaida.TabIndex = 17;
             btnSaida.Text = "Saida";
             btnSaida.UseVisualStyleBackColor = true;
+            // 
+            // labelHoraRelogio
+            // 
+            labelHoraRelogio.AutoSize = true;
+            labelHoraRelogio.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            labelHoraRelogio.Location = new Point(48, 93);
+            labelHoraRelogio.Name = "labelHoraRelogio";
+            labelHoraRelogio.Size = new Size(109, 37);
+            labelHoraRelogio.TabIndex = 18;
+            labelHoraRelogio.Text = "relógio ";
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Tick += timer1_Tick;
+            // 
+            // labelDataRelogio
+            // 
+            labelDataRelogio.AutoSize = true;
+            labelDataRelogio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelDataRelogio.Location = new Point(48, 71);
+            labelDataRelogio.MaximumSize = new Size(100, 50);
+            labelDataRelogio.Name = "labelDataRelogio";
+            labelDataRelogio.Size = new Size(99, 21);
+            labelDataRelogio.TabIndex = 19;
+            labelDataRelogio.Text = "Data Relógio";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(48, 171);
+            label2.Name = "label2";
+            label2.Size = new Size(121, 15);
+            label2.TabIndex = 20;
+            label2.Text = "Cadastrar no Sistema:";
             // 
             // Form1
             // 
@@ -212,24 +180,20 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSlateGray;
             ClientSize = new Size(800, 572);
+            Controls.Add(label2);
+            Controls.Add(labelDataRelogio);
+            Controls.Add(labelHoraRelogio);
             Controls.Add(btnSaida);
             Controls.Add(btnEntrada);
             Controls.Add(textBoxPlaca);
             Controls.Add(label1);
-            Controls.Add(groupBox1);
-            Controls.Add(textBoxAno);
-            Controls.Add(labelAno);
-            Controls.Add(textBoxMes);
-            Controls.Add(labelMes);
-            Controls.Add(textBoxHorario);
-            Controls.Add(textBoxDia);
-            Controls.Add(labelHorario);
-            Controls.Add(labelDia);
+            Controls.Add(groupBoxListasVeiculos);
             Controls.Add(labelTitulo);
             Name = "Form1";
             Text = "Gerenciador de Estacionamento";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            Load += Form1_Load;
+            groupBoxListasVeiculos.ResumeLayout(false);
+            groupBoxListasVeiculos.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -237,22 +201,18 @@
         #endregion
 
         private Label labelTitulo;
-        private Label labelDia;
-        private Label labelHorario;
-        private TextBox textBoxDia;
-        private TextBox textBoxHorario;
         private ListBox listBoxEntradaVeiculos;
         private ListBox listBoxSaidaVeiculos;
-        private Label labelMes;
-        private TextBox textBoxMes;
-        private Label labelAno;
-        private TextBox textBoxAno;
         private Label labelEntradaVeiculos;
         private Label labelSaidaVeiculos;
-        private GroupBox groupBox1;
+        private GroupBox groupBoxListasVeiculos;
         private TextBox textBoxPlaca;
         private Label label1;
         private Button btnEntrada;
         private Button btnSaida;
+        private Label labelHoraRelogio;
+        private System.Windows.Forms.Timer timer1;
+        private Label labelDataRelogio;
+        private Label label2;
     }
 }
