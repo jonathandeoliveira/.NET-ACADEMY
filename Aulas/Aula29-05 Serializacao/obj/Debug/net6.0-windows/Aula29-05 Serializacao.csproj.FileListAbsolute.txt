@@ -1,0 +1,20 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\Aula29-05 Serializacao.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\Aula29-05 Serializacao.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\Aula29-05 Serializacao.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\Aula29-05 Serializacao.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\Aula29-05 Serializacao.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29_05_Serializacao.Form1.resources
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.csproj.GenerateResource.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\refint\Aula29-05 Serializacao.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\ref\Aula29-05 Serializacao.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\obj\Debug\net6.0-windows\Aula29-05 Serializacao.csproj.CopyComplete
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula29-05 Serializacao\bin\Debug\net6.0-windows\SoapFormatter.dll
