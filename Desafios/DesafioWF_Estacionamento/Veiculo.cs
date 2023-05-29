@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,34 +10,33 @@ namespace DesafioWF_Estacionamento
 {
     internal class Veiculo
     {
-        public string Placa; //-> 7 caracteres
         public DateOnly DataEntrada;
         public DateTime HoraEntrada;
-        public DateTime DataSaida;
+        public DateOnly DataSaida;
         public DateTime HoraSaida;
         public double TempoPermanecia;
         public double ValorCobrado;
-
+        public string Placa;
+  
         public Veiculo(string placa)
         {
             Placa = placa;
+            if (placa.Length == 7)
+            {
+                Placa = placa;
+            }
+            else
+            {
+                throw new ArgumentException("A placa deve ter " + 7 + " dígitos.");
+            }
         }
 
         public Veiculo(string placa, string dataEntrada, string horaEntrada) : this(placa)
         {
-            DataEntrada = DateOnly.Parse(dataEntrada);
+            DateOnly converte = DateOnly.Parse(dataEntrada);
+            DataEntrada = new DateOnly (converte.Year, converte.Month, converte.Day);
             HoraEntrada = DateTime.Parse(horaEntrada);
-        }
 
-        public static void gerarDataHora(TextBox data, TextBox horario) 
-        {
-            var cultureInfo = new CultureInfo("pt-BR");
- 
-        }
-
-        public static void jaCadastrada(string placa, ListBox garagem)
-        {
-            garagem.Items.Contains(placa);
         }
 
         public static bool temLugar(int vagasTotais, int vagasOcupadas)
@@ -51,9 +51,9 @@ namespace DesafioWF_Estacionamento
             }
         }
 
-        public static bool jaNaGaragem(string placa, List<Veiculo> veiculosGaragem) // (string placa, ListBox veiculosGaragem)
-        {
-            foreach (var veiculo in veiculosGaragem)   // veiculosGaragem.Items.Contains(placa);
+        public static bool jaNaGaragem(string placa, List<Veiculo> veiculosGaragem) // (string placa, ListBox veiculosGaragem) -- Segunda opção para verificar se ja esta na garagem
+        {                                                                           // veiculosGaragem.Items.Contains(placa);
+            foreach (var veiculo in veiculosGaragem)   
             {
                 if (veiculo.Placa == placa)
                 {
@@ -63,5 +63,16 @@ namespace DesafioWF_Estacionamento
             return false;
         }
 
+        public static void CobrarValor(Veiculo veiculo)
+        {
+            DateTime entrada = veiculo.HoraEntrada;
+            DateTime saida = veiculo.HoraSaida;
+            TimeSpan permanencia =  saida - entrada;
+            veiculo.TempoPermanecia = (int)Math.Ceiling(permanencia.TotalMinutes);
+            int horas = (int)Math.Ceiling(permanencia.TotalMinutes / 60);
+            int valor = (horas * 5);
+            MessageBox.Show($"Tempo de permanencia:{horas} horas \n Valor cobrado:{valor}");
+            veiculo.ValorCobrado = valor;
+        }
     }
 }

@@ -53,17 +53,15 @@ namespace DesafioWF_Estacionamento
 
 
 
-        public static void gravarArquivoVeiculosEntrada(List<Veiculo> lista,ListBox listbox)
+        public static void gravarArquivoVeiculosEntrada(List<Veiculo> lista, ListBox listbox)
         {
             try
             {
                 StreamWriter escritor = new StreamWriter("veiculoEntrada.dat", append: true);
                 foreach (var veiculo in lista)
                 {
-
-                    escritor.WriteLine($"{veiculo.Placa}: {veiculo.DataEntrada.ToString("dd/MM/yyyy")} - {veiculo.HoraEntrada.ToString("HH:mm")}");
+                    escritor.WriteLine(veiculo.Placa + ";" + veiculo.DataEntrada + ";" + veiculo.HoraEntrada.ToString("HH:mm"));
                     escritor.Flush();
-                    listbox.Items.Add($"{veiculo.Placa}: {veiculo.DataEntrada.ToString("dd/MM/yyyy")} - {veiculo.HoraEntrada.ToString("HH:mm")}");
                 }
                 escritor.Close();
             }
@@ -81,9 +79,9 @@ namespace DesafioWF_Estacionamento
                                                                        //StreamWriter escritor = new StreamWriter(nomeArquivo, append:true); //possibilidade de adionar dados no arquivo
                 foreach (var veiculo in lista)
                 {
-                    escritor.WriteLine(veiculo.Placa + ";" + veiculo.DataEntrada + ";" + veiculo.DataSaida);
+                    escritor.WriteLine(veiculo.Placa + ";" + veiculo.DataEntrada + ";" + veiculo.HoraEntrada.ToString("HH:mm") +";" + veiculo.TempoPermanecia+";"+veiculo.ValorCobrado);
+                    //    placa;dataEntrada;horaEntrada;tempoPermanecia;valorCobrado
                     escritor.Flush();
-                    listbox.Items.Add($"{veiculo.Placa} - {veiculo.DataEntrada} - {veiculo.HoraEntrada}");
                 }
                 escritor.Close();
             }
