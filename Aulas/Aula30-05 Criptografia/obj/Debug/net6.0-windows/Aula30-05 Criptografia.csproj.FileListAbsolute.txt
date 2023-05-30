@@ -1,0 +1,17 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\bin\Debug\net6.0-windows\Aula30-05 Criptografia.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\bin\Debug\net6.0-windows\Aula30-05 Criptografia.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\bin\Debug\net6.0-windows\Aula30-05 Criptografia.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\bin\Debug\net6.0-windows\Aula30-05 Criptografia.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\bin\Debug\net6.0-windows\Aula30-05 Criptografia.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30_05_Criptografia.Form1.resources
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.csproj.GenerateResource.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\refint\Aula30-05 Criptografia.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\Aula30-05 Criptografia.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\Aula30-05 Criptografia\obj\Debug\net6.0-windows\ref\Aula30-05 Criptografia.dll
