@@ -63,7 +63,7 @@ namespace DesafioWF_Estacionamento
             return false;
         }
 
-        public static void CobrarValor(Veiculo veiculo)
+        public static void CobrarValor(Veiculo veiculo,ListBox listbox, List<Veiculo> listaSaida, List<Veiculo> listaEntrada)
         {
             DateTime entrada = veiculo.HoraEntrada;
             DateTime saida = veiculo.HoraSaida;
@@ -73,6 +73,13 @@ namespace DesafioWF_Estacionamento
             int valor = (horas * 5);
             MessageBox.Show($"Tempo de permanencia:{horas} horas \n Valor cobrado:{valor}");
             veiculo.ValorCobrado = valor;
+            listbox.Items.Add($"{veiculo.Placa}  -  " +
+                                                  $"{veiculo.HoraSaida.ToString("HH:mm")}       -     " +
+                                                  $"{veiculo.TempoPermanecia}min              -          " +
+                                                  $"R${veiculo.ValorCobrado},00 ");
+            
+            listaEntrada.Remove(veiculo);
+            listaSaida.Add(veiculo);
         }
     }
 }

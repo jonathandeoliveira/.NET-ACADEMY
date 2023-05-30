@@ -43,17 +43,21 @@ namespace DesafioWF_Estacionamento
             string placa = textBoxPlaca.Text;
             foreach (var veiculo in veiculosGaragem)
             {
-                if (veiculo.Placa == placa)
+                if (veiculo.Placa == placa && veiculo.ValorCobrado == 0.0)
                 {
                     DateOnly converte = DateOnly.Parse(labelDataRelogio.Text);
                     veiculo.DataSaida = new DateOnly(converte.Year, converte.Month, converte.Day);
                     veiculo.HoraSaida = DateTime.Parse(labelHoraRelogio.Text);
-                    Veiculo.CobrarValor(veiculo);
+                    Veiculo.CobrarValor(veiculo,listBoxSaidaVeiculos, veiculosSaida,veiculosGaragem);
+                    vagasOcupadas--;
                     Persistencia.gravarArquivoVeiculosSaida(veiculosSaida, listBoxSaidaVeiculos);
-                    listBoxSaidaVeiculos.Items.Add($"{veiculo.Placa}  -  " +
+
+
+                    /*listBoxSaidaVeiculos.Items.Add($"{veiculo.Placa}  -  " +
                                                    $"{veiculo.HoraSaida.ToString("HH:mm")}       -     " +
                                                    $"{veiculo.TempoPermanecia}min              -          " +
-                                                   $"R${veiculo.ValorCobrado},00 ");
+                                                   $"R${veiculo.ValorCobrado},00 ");*/
+                    // veiculosGaragem.Remove( veiculo );              
                 }
                 else
                 {
