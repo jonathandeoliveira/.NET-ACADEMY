@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AulaXamarinForms.Exercicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Exercício IMC e E-mail!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nome Completo:" />
+            <Entry x:Name="etName" Placeholder="Jonathan de Oliveira"/>
+            <Label Text="Idade:" />
+            <Entry x:Name="etAge"  Keyboard="Numeric" Placeholder="26"/>
+            <Label Text="Peso(Kg):" />
+            <Entry x:Name="etWeight"  Keyboard="Numeric" Placeholder="96.4"/>
+            <Label Text="Altura(m)" />
+            <Entry x:Name="etHeight"  Keyboard="Numeric" Placeholder="1.86"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="IMC" Grid.Row="0" Grid.Column="0" Clicked="btnIMC" />
+                <Button Text="E-Mail" Grid.Row="0" Grid.Column="1" Clicked="btnEmail" />
+                <Label x:Name="lblEmail" Text="" Grid.Row="1" Grid.Column="0" />
+                <Label x:Name="lblRespEmail" Text="" Grid.Row="1" Grid.Column="1" />
+                <Label x:Name="lblIMC" Text="" Grid.Row="2" Grid.Column="0" />
+                <Label x:Name="lblRespIMC" Text=""  Grid.Row="2" Grid.Column="1" />
+                <!-- <Button Text="*" Grid.Row="1" Grid.Column="0" />
+                <Button Text="/" Grid.Row="1" Grid.Column="1" />
+                <Label Text="Top Left" Grid.Row="0" Grid.Column="0" />
+                <Label Text="Top Right" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Bottom Left" Grid.Row="1" Grid.Column="0" />
+                <Label Text="Bottom Right" Grid.Row="1" Grid.Column="1" />-->
+            </Grid>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
