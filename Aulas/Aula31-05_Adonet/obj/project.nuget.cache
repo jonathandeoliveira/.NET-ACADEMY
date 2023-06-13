@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CGqOGRJtlcWH2IrQZKb3qsMjMP53No+UFHJvVaF91ayMYJSDtpz8AjpCZU21iR9OHVRGXNarukI1WlArsSn6CA==",
+  "dgSpecHash": "17lujiV6GbhKM5niZZpfdRAPwp/DsOJL/kgia+RJDjC5ZyOTIhF/aQxY2AitTwHWsNENlEoT1OKu93MrdKsiSA==",
   "success": true,
   "projectFilePath": "E:\\Visual Studio\\Repos\\jonathandeoliveira\\.NET-ACADEMY\\Aulas\\Aula31-05_Adonet\\Aula31-05_Adonet.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,10 @@
     "C:\\Users\\Kylz\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Kylz\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\Kylz\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Kylz\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\Kylz\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Kylz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Kylz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Kylz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }
