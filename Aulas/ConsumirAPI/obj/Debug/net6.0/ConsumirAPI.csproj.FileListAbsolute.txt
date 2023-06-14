@@ -1,0 +1,17 @@
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.AssemblyInfo.cs
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\bin\Debug\net6.0\ConsumirAPI.exe
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\bin\Debug\net6.0\ConsumirAPI.deps.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\bin\Debug\net6.0\ConsumirAPI.runtimeconfig.json
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\bin\Debug\net6.0\ConsumirAPI.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\bin\Debug\net6.0\ConsumirAPI.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.csproj.CopyComplete
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\refint\ConsumirAPI.dll
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.pdb
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.genruntimeconfig.cache
+E:\Visual Studio\Repos\jonathandeoliveira\.NET-ACADEMY\Aulas\ConsumirAPI\obj\Debug\net6.0\ref\ConsumirAPI.dll
